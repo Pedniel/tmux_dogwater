@@ -1,4 +1,5 @@
-
+# Disable XON/XOFF flow control so Ctrl-S can be used for search
+stty -ixon
 
 # If not running interactively, don't do anything
 [[ -o interactive ]] || return
